@@ -141,11 +141,11 @@ footer{
 }
 
 .social_wrap div{
-    display: inline-block;
+    display: block;
     padding: 0 0 1rem 0;
   }
 
 .social_wrap{
-    display: inline-block;
+    display: block;
     padding: 0 0 2rem 0;
   }
