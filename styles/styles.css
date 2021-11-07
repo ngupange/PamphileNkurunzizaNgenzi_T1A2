@@ -1,0 +1,91 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+
+
+TABLE OF CONTENTS
+
+  1. Global styles
+  2. Hero
+  3. Navigation
+  9. Footer
+    9a. Contact
+    9b. Connect
+  10. Media Queries
+    10a. Media Query, (min-width: 700px)
+    
+
+    10b. Media Query, (min-width: 1000px)
+
+*/
+/* Global styles
+------------------------------------*/
+* {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  article, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+ }
+
+ body {
+    color: #343434;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  a {
+    /* color: #FFE66D; */
+  }
+  a:hover {
+    text-decoration: none;
+    color: #e06630;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1;
+  }
+
+  p {
+    line-height: 1.4;
+  }
+
+  i {
+    padding-left: .5rem;
+  }
+
+  .content-wrap {
+    max-width: 800px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
