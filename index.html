@@ -5,26 +5,40 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!-- load font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- load google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+  <!-- load Stylesheet (CSS) -->
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="icon" href="images/p_icon.png" type="image/png">
   <title>Pam - Home</title>
 </head>
 
 <body>
   <!-- ***************  Header  **************** -->
   <header>
-    <nav class="navigation">
-      <ul class="contact-list">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/aboutme.html">About Me</a></li>
-        <li><a href="/projects.html">Projects</a></li>
-        <li><a href="/myresume.html">Resume</a></li>
-        <li><a href="/contactme.html">Contact Me</a></li>
-      </ul>
-    </nav>
+    <div class="content-wrap">
+      <div class="logo_wrap">
+        <img src="images/slogo.png" alt="Sample logo">
+      </div>
+      <div clsass="nav_wrap">
+        <nav>
+          <ul class="menu-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/aboutme.html">About Me</a></li>
+            <li><a href="/projects.html">Projects</a></li>
+            <li><a href="/myresume.html">Resume</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contactme.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div> 
+    </div>
   </header>
   <!-- ***************  Main  **************** -->
   <main>
+    <div class="content-wrap">
     <h1>Mauris non pharetra orci</h1>
     <p> Aliquam sit amet nisl consectetur, fringilla ex ut, condimentum neque. Mauris non pharetra orci, nec malesuada
       nulla. Integer eget nisl ultricies, sollicitudin massa sed, pulvinar nulla. Integer id purus molestie arcu
@@ -37,21 +51,29 @@
       iaculis sed, convallis quis ex. Ut sit amet feugiat odio, vitae finibus velit. Morbi eleifend ullamcorper porta.
       Praesent congue iaculis diam non accumsan. Donec viverra arcu risus, eu finibus justo tincidunt vitae. Cras sed
       nulla convallis, egestas quam eget, condimentum ex. </p>
+    </div>
   </main>
   <!-- ***************  Footer  **************** -->
   <footer>
     <div class="content-wrap">
-      <h2>Let's Keep in Touch!</h2>
-
       <!-- Social media and contact links -->
-      <ul class="contact-list">
-        <li><a href="mailto:gcab022120@coderacademy.edu.au">E-mail me</a></li>
-        <li><a href="https://github.com/ngupange" target="_blank">GitHub</a></li>
-        <li><a href="https://twitter.com/ngupange" target="_blank">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/n-ngenzi-pamphile-b7531671/" target="_blank">LinkedIn</a></li>
-      </ul>
+      <div class="social-wrap">
+        <section class="disclaimer_wrap">
+          <p> &copy; 2021, Pamphile Nkurunziza Ngenzi Official. All rights reserved.</p>
+        </section>
+        <section class="social">
+            <h2>Let's be social - connect with me!</h2>
+            <div class="socialIcons">
+              <a href="https://github.com/ngupange" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="https://www.linkedin.com/in/n-ngenzi-pamphile-b7531671/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/"  target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/ngupange" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+      </div>
     </div>
   </footer>
 </body>
-
 </html>
