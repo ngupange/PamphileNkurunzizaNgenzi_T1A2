@@ -116,30 +116,79 @@ i:hover {
 }
 
 /*-- ************  Header  ************ -- */
-
 header {
     background-color: #2F3061;
     color: #F7FFF7;
+    margin: 0;
+	padding: 1px 0;
+	position: relative;
+	/* overflow: hidden; */
+    /* height: 10vh; */
+}
+.hlogo {
+	font-size: 2em;
+	line-height: 53px;
+	letter-spacing: .25rem; 
+	color: #F7FFF7;
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 70px;
+	bottom: 6px;
+	text-shadow: 2px 2px 0px #4766cc;
+	text-transform: uppercase;
 }
 
-.logo_wrap{
-    max-width: 5rem;
-   }
-header .content-wrap{
-    display: flex;
-    justify-content: space-between;
+input#navToggle {
+	display: none;
 }
 
-/* .logo_wrap {
-    background-color: #F7FFF7;
-  } */
+input#navToggle:checked + nav {
+	right:0;
+}
 
-/*-- ************  Header Navigation  ************ -- */
+input#navToggle:checked + nav label {
+	background-image: url(images/menu_close.svg);
+}
 
+nav {
+	width: 180px;
+	background-color: #13b1e7;
+	padding: 10px 20px 10px 25px;
+	color: #fff;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0px;
+	right: -180px;
+	/* transition: right .6s ease-in-out; */
+}
 
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: 14px 0;
+	border-top: 1px solid rgba(255,255,255,.1);
+}
 
+nav li a:first-of-type {
+	border-top: none;
+}
 
-
+nav label {
+    color: #fff;
+	cursor: pointer;
+	display: block;
+	width: 42px;
+	height: 42px;
+	background: #13b1e7 url(images/menu_open.svg);
+	background-size: 22px auto;
+	position: absolute;
+	top: 78px;
+	left: -42px;
+}
 
 /*-- ************  Footer  ************ -- */
 
