@@ -78,12 +78,6 @@ a:hover {
     color: #e06630;
 }
 
-.disclaimer_wrap {
-    font-size: 0.7rem;
-    font-family: 'Caveat', cursive;
-    font-weight: 400;
-}
-
 h1 {
     font-size: 2.5rem;
 }
@@ -115,14 +109,15 @@ i:hover {
 }
 
 .content-wrap {
-    max-width: 800px;
+    max-width: 1000px;
     width: 85%;
     margin: 0 auto;
     padding: 3rem 0;
 }
 
 .footer_wrap {
-    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
 }
 
 /*-- ************  Header  ************ -- */
@@ -165,40 +160,36 @@ footer {
 .footer_wrap {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    /* justify-content: center; */
+    gap: 1rem;
     align-items: center;
-}
-
-/*-- **********  Footer Wrap -- Social Wrap  ********** -- */
-
-.social_wrap {
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    flex-wrap: nowrap;
-    /* justify-content: center; */
 }
 
 .social_text {
     flex: 1;
 }
 
-.social_text h2 {
+.social_text span {
     font-size: 1.5rem;
 }
 
-/*-- **********  Footer Wrap -- Disclaimer Wrap  ********** -- */
+/*-- **********  Footer Wrap -- Social Icons Wrap  ********** -- */
 
-section .disclaimer_wrap {
+.social_icons{
     flex: 1;
 }
+
+/*-- **********  Footer Wrap -- copyrights Wrap  ********** -- */
+
+.copyrights_wrap {
+    flex: 1;
+    font-size: .8rem;
+}
+
 
 /* Tablets Display */
 
 @media screen and (min-width:500px) {
-    /* Chnge menu from Hamburger to display in line and the logo on top of menu */
+    /* Change menu from Hamburger to display in line and the logo on top of menu */
 
 }
 
@@ -209,23 +200,34 @@ section .disclaimer_wrap {
 
     /* -- ***************  Header  **************** -- */
 
+       /* Using flex to display Menu*/
+
     /* -- ***************  Footer  **************** -- */
 
-    i {
+       /* Try to make it grid */
+
+    /* i {
         font-size: 2rem;
-    }
+    }*/
 
     .footer_wrap {
         flex-direction: row;
         justify-content: space-between;
+    } 
+
+    .social_text {
+        flex: 1;
+        display: none;
     }
-
-    /* .social_wrap {
-
-    } */
-
-    .disclaimer_wrap {
-        font-size: 0.9rem;
+    .social_icons{
+        display: flex;
+        justify-content: flex-end; /*To slign icons on far right */
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .copyrights_wrap {
+        flex: 1;
+        font-size: 1rem;
         order: -1;
 
     }
