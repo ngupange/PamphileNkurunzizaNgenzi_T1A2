@@ -205,9 +205,10 @@ footer {
 
        /* Try to make it grid */
 
-    /* i {
+    i {
+        padding-left: 0;
         font-size: 2rem;
-    }*/
+    }
 
     .footer_wrap {
         flex-direction: row;
@@ -221,6 +222,7 @@ footer {
     .social_icons{
         display: flex;
         justify-content: flex-end; /*To align icons on far right */
+        gap: 2rem;
         flex: 1;
         justify-content: flex-end;
     }
