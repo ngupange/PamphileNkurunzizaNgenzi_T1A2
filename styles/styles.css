@@ -17,7 +17,7 @@ TABLE OF CONTENTS
     9a. Contact
     9b. Connect
   10. Media Queries
-    10a. Media Query, (min-width: 700px)
+    10a. Media Query, (min-width:480px)
     
 
     10b. Media Query, (min-width: 1000px)
@@ -29,161 +29,210 @@ TABLE OF CONTENTS
     font-size: 100%;
     padding: 0;
     margin: 0;
-  }
-  
-  *,
-  *:before,
-  *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
-  
-  html {
+}
+
+html {
     box-sizing: border-box;
-  }
-  
-  article, figcaption, figure, footer, header, hgroup, nav, section {
+}
+
+article,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
     display: block;
-  }
-  
-  body {
+}
+
+body {
     background: #F7FFF7;
     color: #343434;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.5;
-  }
-  
-  /* .contents{
+}
+
+/* .contents{
       min-height: 90vh;
   } */
-  
-  img {
+
+img {
     max-width: 100%;
     height: auto;
-  }
-  
-  a {
+}
+
+a {
     color: #FFE66D;
-  }
-  
-  a:hover {
+}
+
+a:hover {
     text-decoration: none;
     color: #e06630;
-  }
-  
-  .disclaimer_wrap {
+}
+
+.disclaimer_wrap {
     font-size: 0.7rem;
     font-family: 'Caveat', cursive;
     font-weight: 400;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 2.5rem;
-  }
-  
-  h2 {
+}
+
+h2 {
     font-size: 2rem;
-  }
-  
-  h1,
-  h2 {
+}
+
+h1,
+h2 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 0;
     line-height: 1;
-  }
-  
-  p {
+}
+
+p {
     line-height: 1.4;
-  }
-  
-  i {
+}
+
+i {
     padding-left: .5rem;
     color: #F7FFF7;
-    font-size: 2rem;
-  }
-  
-  i:hover {
+    font-size: 1.5rem;
+}
+
+i:hover {
     color: #36bae6;
-  }
-  
-  .content-wrap {
+}
+
+.content-wrap {
     max-width: 800px;
     width: 85%;
     margin: 0 auto;
     padding: 3rem 0;
-  }
-  
-  .footer_wrap {
+}
+
+.footer_wrap {
     text-align: center;
-  }
-  
-  /*-- ************  Header  ************ -- */
-  
-  header {
+}
+
+/*-- ************  Header  ************ -- */
+
+header {
     background-color: #2F3061;
     color: #F7FFF7;
-  }
-  
-  /* .logo_wrap {
+}
+
+/* .logo_wrap {
     background-color: #F7FFF7;
   } */
-  
-  .menu-list {
+
+.menu-list {
     list-style-type: none;
     padding: 0;
-  }
-  
-  .menu-list a {
+}
+
+.menu-list a {
     color: #F7FFF7;
     padding: 15px;
     display: inline-block;
     text-decoration: none;
-  }
-  
-  .menu-list a:hover {
+}
+
+.menu-list a:hover {
     color: #36bae6;
-  }
-  
-  /*-- ************  Header Navigation  ************ -- */
-  
-  /*-- ************  Footer  ************ -- */
-  
-  footer {
+}
+
+/*-- ************  Header Navigation  ************ -- */
+
+/*-- ************  Footer  ************ -- */
+
+footer {
     background-color: #2F3061;
     color: #F7FFF7;
-  }
-  
-  /*-- ************  Footer -- Footer Wrap  ************ -- */
-  .footer_wrap {
+}
+
+/*-- ************  Footer -- Footer Wrap  ************ -- */
+.footer_wrap {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     /* justify-content: center; */
     align-items: center;
-  }
-  
-  /*-- **********  Footer Wrap -- Social Wrap  ********** -- */
-  
-  .social_wrap {
-  
+}
+
+/*-- **********  Footer Wrap -- Social Wrap  ********** -- */
+
+.social_wrap {
+
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
     flex-wrap: nowrap;
     /* justify-content: center; */
-  }
-  
-  .social_text {
+}
+
+.social_text {
     flex: 1;
-  }
-  
-  .social_text h2 {
+}
+
+.social_text h2 {
     font-size: 1.5rem;
-  }
-  
-  /*-- **********  Footer Wrap -- Disclaimer Wrap  ********** -- */
-  
-  section .disclaimer_wrap {
+}
+
+/*-- **********  Footer Wrap -- Disclaimer Wrap  ********** -- */
+
+section .disclaimer_wrap {
     flex: 1;
-  }
+}
+
+/* Tablets Display */
+
+@media screen and (min-width:500px) {
+    /* Chnge menu from Hamburger to display in line and the logo on top of menu */
+
+}
+
+    /* Laptop or Desktop Display */
+
+@media screen and (min-width:780px) {
+
+
+    /* -- ***************  Header  **************** -- */
+
+    /* -- ***************  Footer  **************** -- */
+
+    i {
+        font-size: 2rem;
+    }
+
+    .footer_wrap {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* .social_wrap {
+
+    } */
+
+    .disclaimer_wrap {
+        font-size: 0.9rem;
+        order: -1;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+        /* Change footer and display icons one line */
+
+}
