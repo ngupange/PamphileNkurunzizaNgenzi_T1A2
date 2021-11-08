@@ -144,6 +144,26 @@ header {
 
 /*-- ************  Header Navigation  ************ -- */
 
+nav label {
+	display: block;
+	background: url(images/menu.svg) no-repeat 0 1px; 
+	/* background-size: 20px auto;
+	padding: 0 0 10px 30px; */
+}
+
+nav label .menu-list {
+	margin: 10px 0 0 0;
+	display: none;
+}
+
+nav label input {
+	display: none;
+}
+
+nav label input:checked ~ ul {
+	display: block;
+}
+
 /*-- ************  Footer  ************ -- */
 
 footer {
