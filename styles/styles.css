@@ -122,10 +122,19 @@ header {
     color: #F7FFF7;
 }
 
+.logo_wrap{
+    max-width: 5rem;
+   }
+header .content-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* .logo_wrap {
     background-color: #F7FFF7;
   } */
 
+/*-- ************  Header Navigation  ************ -- */
 .menu-list {
     list-style-type: none;
     padding: 0;
@@ -134,21 +143,19 @@ header {
 .menu-list a {
     color: #F7FFF7;
     padding: 15px;
-    display: inline-block;
+    display: block;
     text-decoration: none;
+    text-align: right;
 }
 
 .menu-list a:hover {
     color: #36bae6;
 }
-
-/*-- ************  Header Navigation  ************ -- */
-
 nav label {
 	display: block;
 	background: url(images/menu.svg) no-repeat 0 1px; 
-	/* background-size: 20px auto;
-	padding: 0 0 10px 30px; */
+	background-size: 20px auto;
+	padding: 0 0 10px 30px;
 }
 
 nav label .menu-list {
