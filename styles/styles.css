@@ -30,122 +30,159 @@ TABLE OF CONTENTS
     padding: 0;
     margin: 0;
   }
-
-  *, *:before, *:after {
+  
+  *,
+  *:before,
+  *:after {
     box-sizing: inherit;
   }
-
+  
   html {
     box-sizing: border-box;
   }
-
+  
   article, figcaption, figure, footer, header, hgroup, nav, section {
     display: block;
- }
-
- body {
+  }
+  
+  body {
     background: #F7FFF7;
     color: #343434;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.5;
   }
-
+  
+  /* .contents{
+      min-height: 90vh;
+  } */
+  
   img {
     max-width: 100%;
     height: auto;
   }
- 
+  
   a {
     color: #FFE66D;
   }
+  
   a:hover {
     text-decoration: none;
     color: #e06630;
   }
-
+  
   .disclaimer_wrap {
     font-size: 0.7rem;
     font-family: 'Caveat', cursive;
     font-weight: 400;
-}
-
+  }
+  
   h1 {
     font-size: 2.5rem;
   }
+  
   h2 {
     font-size: 2rem;
   }
-  h1, h2 {
+  
+  h1,
+  h2 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 0;
     line-height: 1;
   }
-
+  
   p {
     line-height: 1.4;
   }
-
+  
   i {
     padding-left: .5rem;
     color: #F7FFF7;
     font-size: 2rem;
   }
-
+  
   i:hover {
-      color: #36bae6;
+    color: #36bae6;
   }
-
+  
   .content-wrap {
     max-width: 800px;
     width: 85%;
     margin: 0 auto;
     padding: 3rem 0;
   }
-
-  .footer-wrap {
-      text-align: center;
+  
+  .footer_wrap {
+    text-align: center;
   }
-
+  
   /*-- ************  Header  ************ -- */
-
+  
   header {
     background-color: #2F3061;
     color: #F7FFF7;
-}
-
-.menu-list {
+  }
+  
+  /* .logo_wrap {
+    background-color: #F7FFF7;
+  } */
+  
+  .menu-list {
     list-style-type: none;
     padding: 0;
   }
-
+  
   .menu-list a {
     color: #F7FFF7;
     padding: 15px;
     display: inline-block;
     text-decoration: none;
   }
-
+  
   .menu-list a:hover {
     color: #36bae6;
   }
-
-    /*-- ************  Header Navigation  ************ -- */
-
+  
+  /*-- ************  Header Navigation  ************ -- */
+  
   /*-- ************  Footer  ************ -- */
-
-footer{
+  
+  footer {
     background-color: #2F3061;
     color: #F7FFF7;
-}
-
-.social_wrap div{
-    display: block;
-    padding: 0 0 1rem 0;
   }
-
-.social_wrap{
-    display: block;
-    padding: 0 0 2rem 0;
+  
+  /*-- ************  Footer -- Footer Wrap  ************ -- */
+  .footer_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  /*-- **********  Footer Wrap -- Social Wrap  ********** -- */
+  
+  .social_wrap {
+  
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+  }
+  
+  .social_text {
+    flex: 1;
+  }
+  
+  .social_text h2 {
+    font-size: 1.5rem;
+  }
+  
+  /*-- **********  Footer Wrap -- Disclaimer Wrap  ********** -- */
+  
+  section .disclaimer_wrap {
+    flex: 1;
   }
