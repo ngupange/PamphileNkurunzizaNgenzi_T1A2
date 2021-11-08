@@ -159,7 +159,8 @@ TABLE OF CONTENTS
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
   }
   
   /*-- **********  Footer Wrap -- Social Wrap  ********** -- */
