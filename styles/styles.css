@@ -14,18 +14,24 @@ TABLE OF CONTENTS
   1. Global styles
   2. Hero
   3. Navigation
-  9. Footer
-    9a. Contact
-    9b. Connect
-  10. Media Queries
-    10a. Media Query, (min-width:480px)
-    
+  4. Footer
+  5. Media Queries
+    5a. Media Query, (min-width:480px)
 
-    10b. Media Query, (min-width: 1000px)
+    5b. Media Query, (min-width: 1000px)
 
 */
 /* Global styles
 ------------------------------------*/
+:root {
+    --black: #343434;
+    --bluedark: #2F3061;
+    --bluelight: #A1C6D7;
+    --bluehover: #36bae6;
+    --white: #F7FFF7;
+    --yellow: #FFE66D;
+}
+
 * {
     font-size: 100%;
     padding: 0;
@@ -54,8 +60,8 @@ section {
 }
 
 body {
-    background: #F7FFF7;
-    color: #343434;
+    background: var(--white);
+    color: var(--black);
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.5;
@@ -75,7 +81,7 @@ img {
 }
 
 a {
-    color: #FFE66D;
+    color: var(--yellow);
 }
 
 a:hover {
@@ -105,12 +111,12 @@ p {
 
 i {
     padding-left: .5rem;
-    color: #F7FFF7;
+    color: var(--white);
     font-size: 1.5rem;
 }
 
 i:hover {
-    color: #36bae6;
+    color: var(--bluehover);
 }
 
 .content-wrap {
@@ -127,8 +133,8 @@ i:hover {
 /*-- ************  Header  ************ -- */
 
 header {
-    background-color: #2F3061;
-    color: #F7FFF7;
+    background-color: var(--bluedark);
+    color: var(--white);
 }
 
 .navWrap a{
@@ -149,7 +155,7 @@ header {
     z-index: 99;
     height: 48px;
     width: 100%;
-    background-color: #2F3061;
+    background-color: var(--bluedark);
     border-bottom: 1px solid #e0e5eb;
     box-shadow: 0px 1px 8px #223055;
     padding: 0 1.5rem;
@@ -180,7 +186,7 @@ header {
     height: 0.125rem;
     width: 1.75rem;
     opacity: 1;
-    background: #F7FFF7;
+    background: var(--white);
     transition: 0.14s ease-in-out;
   }
   
@@ -240,14 +246,14 @@ header {
     text-decoration: none;
     width: 100%;
     padding: .75rem 1rem;
-    color: #F7FFF7;
+    color: var(--white);
     border-bottom: solid 1px rgba(255,255,255,.5);
     transition: 0.14s ease-in-out;
   }
   
   nav ul li a:hover {
-    color: #36bae6;
-    background: #F7FFF7;
+    color: var(--bluehover);
+    background: var(--white);
   }
   
   nav ul li:last-of-type::before {
@@ -257,15 +263,15 @@ header {
     }
   
   nav .btn {
-    background: #F7FFF7;
+    background: var(--white);
     border-bottom: none;
     border-radius: 4px;
     box-shadow: inset 0 0 5px #eeb80c;
-    color: #2F3061;
+    color: var(--bluedark);
     width: 40%;
     padding: 0.25rem .6rem;
     letter-spacing: 1px;
-    text-shadow: 0 0 1px #36bae6;
+    text-shadow: 0 0 1px var(--bluehover);
     text-align: center;
     display: flex;
     justify-content: center;
@@ -273,17 +279,17 @@ header {
   }
   
   nav .btn:hover {
-    background-color: #2F3061;
-    box-shadow: inset 0 0 5px #36bae6;
-    color: #F7FFF7;
+    background-color: var(--bluedark);
+    box-shadow: inset 0 0 5px var(--bluehover);
+    color: var(--white);
   }
   
 
 /*-- ************  Footer  ************ -- */
 
 footer {
-    background-color: #2F3061;
-    color: #F7FFF7;
+    background-color: var(--bluedark);
+    color: var(--white);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -374,16 +380,16 @@ footer {
     
       nav .btn {
         width: auto;
-        background: #36bae6;
-        color: #F7FFF7;
+        background: var(--bluehover);
+        color: var(--white);
         letter-spacing: normal;
         text-shadow: none;
         box-shadow: none;
       }
     
       nav.btn:hover {
-        box-shadow: inset 0 0 5px #36bae6;
-        background-color: #2F3061;
+        box-shadow: inset 0 0 5px var(--bluehover);
+        background-color: var(--bluedark);
       }
        /* Using flex to display Menu*/
 
