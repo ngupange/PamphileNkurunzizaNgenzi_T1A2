@@ -92,13 +92,15 @@ a:hover {
 h1 {
     font-size: 2.5rem;
 }
-
+    
 h2 {
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 0;
@@ -328,6 +330,168 @@ footer {
     flex: 1;
     font-size: .8rem;
 }
+
+
+/* ================================================ */
+
+
+.form {
+    background-color: #A1C6D7;;
+    color: var(--black);
+    padding: 1rem 1rem 2rem;
+  }
+  
+  /* ######### Contact Form ######### */
+  form#contactForm {
+      max-width: 350px;
+      margin: auto;
+  }
+  
+  .contactForm div {
+      margin-top: 1em;
+  }
+  
+  .subtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactForm div:first-of-type {
+    margin-top: 0;
+  }
+  
+  .contactForm label {
+    display: block;
+  }
+  
+  .contactForm input, .contactForm textarea {
+    border: solid 1px #2F3061;
+    border-radius: 4px;
+    color: #707070;
+    cursor: text;
+    font-size: 1rem;
+    max-width: 350px;
+    padding: .5rem;
+    width: 100%;
+  }
+  
+  .contactForm textarea {
+    min-height: 100px;
+  }
+  
+  .contactForm button {
+    background-color: var(--bluedark);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem;
+    min-width: 200px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactForm button:hover {
+    background-color: var(--bluehover);
+    color: #ffc107;
+  }
+  
+  .contactForm input[type="submit"]:active {
+    box-shadow: 1px 1px 6px rgba(255,255,255,.6), 0px 0px 4px rgba(255,255,255,.8);
+  }
+  
+  .contactForm .checks {
+    margin: .25em 0 1em .1em;
+  }
+  
+  .contactForm input[type="checkbox"] + label {
+    display: inline-block;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  
+  /* custom checkbox */
+  .contactForm .checks label {
+    display: inline-block;
+  }
+  
+  .contactForm input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    margin: 1px 0 0 -1px;
+  }
+  
+  input[type="checkbox"]:checked ~ span:before {
+    content: "\f14a";
+  }
+  
+  .checks span:before {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #13b1e7;
+    content: "\f0c8";
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.3em;
+    margin: -3px 3px 0 0;
+    vertical-align: middle;
+  }
+  
+  .contactForm input:focus, .contactForm textarea:focus {
+    border: solid 1px #13b1e7;
+    box-shadow: 0 0 2px #0d92bf, 0px 0px 4px #0d92bf, 1px 1px 4px #13b1e7, 2px 2px 4px #13b1e7;
+    outline: none;
+  }
+  
+  /* radio buttons */
+  .contactForm div.radioBtns {
+    margin: 1em 0;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .radioBtns p {
+    padding-bottom: 0;
+    grid-column: span 3;
+  }
+  
+   input[type="radio"]:first-of-type {
+      margin-left: 0;
+  }
+  
+  /* make the new radio button */
+  .radioBtns span:before {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    color: #13b1e7;
+    font-size: 1.2em;
+    vertical-align: middle;
+    margin: -4px 3px 0 0;
+  }
+  
+  .radioBtns label {
+    position: relative;
+  }
+  /* hide the default radio buttons */
+  .radioBtns input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+  }
+  /* create the on (selected) state */
+  input[type="radio"]:checked ~ span:before {
+    content: "\f192"; /* unicode for fa dot circle */
+  }
+  
+  /* ============================================  */
+
+
 
 
 /* Tablets Display */

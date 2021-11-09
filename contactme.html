@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- load font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- load google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
+    <!-- load Stylesheet (CSS) -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Pam - Home</title>
+</head>
+
+<body>
+    <!-- ***************  Header  **************** -->
+    <header>
+        <div class="header-wrap">
+            <section class="navWrap">
+                <a href="index.html"><img src="images/pamLogo.svg" alt="Pam logo" class="logo"></a>
+                <input type="checkbox" id="navToggle" class="navToggle">
+                <label for="navToggle" class="navToggleLabel"><span></span></label>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutme.html">About Me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="myresume.html">Resume</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contactme.html">Contact Me</a></li>
+                        <li><a href="#trips" class="btn">Download My C.V (PDF)</a></li> <!-- link to downloadable CV -->
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </header>
+    <!-- ***************  Main  **************** -->
+    <main class="contents">
+        <div class="content-wrap">
+            <section id="contact">
+                <h2>Got questions? Get in touch</h2>
+                <div class="content-wrap ">
+                    <p class="formIntro">If you'd like more information about me and my projects, please reach out and
+                        we will contact you promptly. </p>
+                    <p>Cras neque purus, lobortis at mauris nec, cursus tristique libero. </p>
+                </div>
+                <!-- Form  -->
+                <div class="content-wrap form">
+                    <form action="#" method="post" id="contactForm" class="contactForm">
+                        <div>
+                            <label for="fullName">Your Name:</label>
+                            <input type="text" name="fullName" id="fullName" required>
+                        </div>
+
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phone" id="phone" maxlength="12" placeholder="111-222-3333"
+                                required>
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+
+                        <div class="radioBtns">
+                            <p>Preferred method of contact:</p>
+                            <label for="contactEmail">
+                                <input type="radio" name="contact" id="contactEmail" value="email">
+                                <span></span>
+                                Email
+                            </label>
+
+                            <label for="contactTel">
+                                <input type="radio" name="contact" id="contactTel" value="phone">
+                                <span></span>
+                                Phone
+                            </label>
+
+                            <label for="contactText">
+                                <input type="radio" name="contact" id="contactText" value="text">
+                                <span></span>
+                                Text
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="msg">Your Message / Question:</label>
+                            <textarea name="msg" id="msg"></textarea>
+                        </div>
+
+                        <div class="checks">
+                            <input type="checkbox" name="newsletter" id="newsletter" checked>
+                            <span></span>
+                            <label for="newsletter">Sign up for our newsletter!</label>
+                        </div>
+                        <div class="subtn">
+                            <button type="submit" value="Send Message" form="contactForm"> Send
+                                Request </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- ***************  Footer  **************** -->
+    <footer>
+        <div class="content-wrap">
+            <!-- Social media and contact links -->
+            <section class="footer_wrap">
+                <article class="social_text">
+                    <span>Let's be social - connect with me!</span>
+                </article>
+                <article class="social_icons">
+                    <a href="https://github.com/ngupange" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/n-ngenzi-pamphile-b7531671/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/ngupange" target="_blank"><i class="fab fa-twitter"></i></a>
+                </article>
+                <article class="copyrights_wrap">
+                    <span> &copy; 2021, Pam N.Ngenzi. All rights reserved.</span>
+                </article>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
