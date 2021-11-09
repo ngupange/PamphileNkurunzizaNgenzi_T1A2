@@ -488,6 +488,23 @@ footer {
   input[type="radio"]:checked ~ span:before {
     content: "\f192"; /* unicode for fa dot circle */
   }
+
+ /* ============================================  */
+
+ /* ----******* Blog Page *****------- */
+
+.blogs_wrap h1,
+ h2, h3 {
+     color: var(--bluedark);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+  
   
   /* ============================================  */
 
