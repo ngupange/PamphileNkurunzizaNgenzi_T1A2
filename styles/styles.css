@@ -25,9 +25,9 @@ TABLE OF CONTENTS
 ------------------------------------*/
 :root {
   --black: #343434;
-  --bluedark: #2F3061;
-  --bluelight: #A1C6D7;
-  --bluehover: #36bae6;
+  --greendark: #265c00;
+  --greenlight: #b3de81;
+  --greenhover: #68a225;
   --white: #F7FFF7;
   --yellow: #FFE66D;
   --tWhite: rgba(255, 255, 255, 0.8);
@@ -87,7 +87,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #e06630;
+  color: var(--greenhover);
 }
 
 h1 {
@@ -117,7 +117,7 @@ i {
 }
 
 i:hover {
-  color: var(--bluehover);
+  color: var(--greenhover);
 }
 
 .content-wrap {
@@ -134,7 +134,7 @@ i:hover {
 /*-- ************  Header  ************ -- */
 
 header {
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
   color: var(--white);
 }
 
@@ -156,9 +156,9 @@ header {
   z-index: 99;
   height: 48px;
   width: 100%;
-  background-color: var(--bluedark);
-  border-bottom: 1px solid #e0e5eb;
-  box-shadow: 0px 1px 8px #223055;
+  background-color: var(--greendark);
+  border-bottom: 1px solid var(--white);
+  box-shadow: 0px 1px 8px var(--greendark);
   padding: 0 1.5rem;
   display: flex;
   align-items: center;
@@ -234,7 +234,7 @@ nav::after {
   z-index: -1;
   height: 100vh;
   width: 100vw;
-  background-color: #13b1e7;
+  background-color: var(--greenlight);
   background-size: cover;
 }
 
@@ -253,7 +253,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--bluehover);
+  color: var(--greenhover);
   background: var(--white);
 }
 
@@ -267,12 +267,12 @@ nav .btn {
   background: var(--white);
   border-bottom: none;
   border-radius: 4px;
-  box-shadow: inset 0 0 5px #eeb80c;
-  color: var(--bluedark);
+  box-shadow: inset 0 0 5px var(--yellow);
+  color: var(--greendark);
   width: 40%;
   padding: 0.25rem .6rem;
   letter-spacing: 1px;
-  text-shadow: 0 0 1px var(--bluehover);
+  text-shadow: 0 0 1px var(--greenhover);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -280,8 +280,8 @@ nav .btn {
 }
 
 nav .btn:hover {
-  background-color: var(--bluedark);
-  box-shadow: inset 0 0 5px var(--bluehover);
+  background-color: var(--greendark);
+  box-shadow: inset 0 0 5px var(--greenhover);
   color: var(--white);
 }
 
@@ -289,7 +289,7 @@ nav .btn:hover {
 /*-- ************  Footer  ************ -- */
 
 footer {
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
   color: var(--white);
   position: fixed;
   left: 0;
@@ -335,7 +335,7 @@ footer {
 
 
 .form {
-  background-color: #A1C6D7;
+  background-color: var(--greenlight);
   ;
   color: var(--black);
   padding: 1rem 1rem 2rem;
@@ -367,7 +367,7 @@ form#contactForm {
 
 .contactForm input,
 .contactForm textarea {
-  border: solid 1px #2F3061;
+  border: solid 1px var(--greendark);
   border-radius: 4px;
   color: #707070;
   cursor: text;
@@ -382,10 +382,10 @@ form#contactForm {
 }
 
 .contactForm button {
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
   border: none;
   border-radius: 4px;
-  color: #fff;
+  color: var(--tWhite);
   font-size: 1rem;
   padding: .5rem;
   min-width: 200px;
@@ -396,8 +396,8 @@ form#contactForm {
 }
 
 .contactForm button:hover {
-  background-color: var(--bluehover);
-  color: #ffc107;
+  background-color: var(--greenhover);
+  color:var(--yellow);
 }
 
 .contactForm input[type="submit"]:active {
@@ -434,7 +434,7 @@ input[type="checkbox"]:checked~span:before {
 .checks span:before {
   display: inline-block;
   box-sizing: border-box;
-  color: #13b1e7;
+  color: var(--greenlight);
   content: "\f0c8";
   font-family: "Font Awesome 5 Free";
   font-size: 1.3em;
@@ -444,8 +444,8 @@ input[type="checkbox"]:checked~span:before {
 
 .contactForm input:focus,
 .contactForm textarea:focus {
-  border: solid 1px #13b1e7;
-  box-shadow: 0 0 2px #0d92bf, 0px 0px 4px #0d92bf, 1px 1px 4px #13b1e7, 2px 2px 4px #13b1e7;
+  border: solid 1px var(--greenlight);
+  box-shadow: 0 0 2px var(--greenhover), 0px 0px 4px var(--greenhover), 1px 1px 4px var(--greenlight), 2px 2px 4px var(--greenlight);
   outline: none;
 }
 
@@ -472,7 +472,7 @@ input[type="radio"]:first-of-type {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
   content: "\f111";
-  color: #13b1e7;
+  color: var(--greenlight);
   font-size: 1.2em;
   vertical-align: middle;
   margin: -4px 3px 0 0;
@@ -501,7 +501,7 @@ input[type="radio"]:checked~span:before {
 .bcontents h1,
 h2,
 h3 {
-  color: var(--bluedark);
+  color: var(--greendark);
   /* text-align: center; */
   /* margin-bottom: 1rem; */
 }
@@ -533,13 +533,13 @@ h3 {
   color: #fff;
   padding-top: 1rem;
   text-align: center;
-  text-shadow: 1px 1px 2px #223055;
+  text-shadow: 1px 1px 2px var(--greendark);
   grid-column: 1 / 2;
   grid-row: span 2;
 }
 
 .articles_wrap li h4 {
-  background-color: #223055;
+  background-color: var(--greendark);
   border-radius: 0 6px 0 0;
   color: #fff;
   padding: .5rem 1rem;
@@ -554,12 +554,12 @@ h3 {
 
 .articles_wrap li p a {
   color: var(--white);
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
   padding: 0 .5rem;
 }
 
 .articles_wrap li p a:hover {
-  background-color: var(--bluehover);
+  background-color: var(--greenhover);
 }
 
 .articles_wrap li:nth-of-type(2) span {
@@ -587,7 +587,7 @@ h3 {
 
 
 .aside_wrap .rightCol {
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
   padding: 20px;
 }
 
@@ -643,7 +643,7 @@ h3 {
   height: 20px;
   font-size: 12px;
   border-radius: 50%;
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
   color: var(--white);
   display: flex;
   justify-content: center;
@@ -652,13 +652,13 @@ h3 {
 
 .aside_wrap .rightCol li a:hover,
 .aside_wrap .rightCol h2 a:hover {
-  background-color: var(--bluehover);
+  background-color: var(--greenhover);
 }
 
 .aside_wrap .rightCol li a:hover span,
 .aside_wrap .rightCol h2 a:hover span {
   background-color: var(--white);
-  color: var(--bluedark);
+  color: var(--greendark);
 }
 
 .aside_wrap .rightCol ul li:first-child,
@@ -753,7 +753,7 @@ h3 {
 }
 
 .pro_wrap a:hover {
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
 }
 
 /* =========================================================================== */
@@ -802,7 +802,7 @@ h3 {
 
 #lkd a{
   color: var(--tWhite);
-  background-color: var(--bluedark);
+  background-color: var(--greendark);
 }
 
 
@@ -869,7 +869,7 @@ h3 {
 
   nav .btn {
     width: auto;
-    background: var(--bluehover);
+    background: var(--greenhover);
     color: var(--white);
     letter-spacing: normal;
     text-shadow: none;
@@ -877,8 +877,8 @@ h3 {
   }
 
   nav.btn:hover {
-    box-shadow: inset 0 0 5px var(--bluehover);
-    background-color: var(--bluedark);
+    box-shadow: inset 0 0 5px var(--greenhover);
+    background-color: var(--greendark);
   }
 
   /* Using flex to display Menu*/
