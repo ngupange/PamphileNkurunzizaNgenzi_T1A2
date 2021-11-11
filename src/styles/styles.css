@@ -7,6 +7,7 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 #FFE66D - yellow
 #A1C6D7 - blue light
 #36bae6 - blue hover
+#afacac - dash-border
 
 
 TABLE OF CONTENTS
@@ -31,6 +32,8 @@ TABLE OF CONTENTS
   --white: #F7FFF7;
   --yellow: #FFE66D;
   --tWhite: rgba(255, 255, 255, 0.8);
+  --borderline: #afacac;
+  --bordershadow: rgba(0, 0, 0, 0.205);
 }
 
 * {
@@ -767,29 +770,24 @@ h3 {
   max-width: 1000px;
 }
 
-.pro_wrap h1 {
-  color: #3abadf;
+.pro_wrap h3 {
+  color: var(--greenlight);
   font-size: 3rem;
   margin-left: 1rem;
-}
-
-.pro_wrap article p {
-  border-left: solid 1px #dedede;
-  padding-left: 1rem;
 }
 
 .proList {
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 1rem;
 }
 
 .proList li {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: var(--tWhite);
   border-radius: 6px;
-  border: solid 1px #dedede;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: solid 2px #afacac;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.205);
   padding: 1.8rem;
   display: grid;
   grid-template-columns: 1fr;
@@ -1056,7 +1054,7 @@ h3 {
   /* ===================================================== */
   /* ######### Project Page, Large screen rules ######### */
   .proList {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   }
 
   .pro_wrap article {
