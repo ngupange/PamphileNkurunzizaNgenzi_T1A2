@@ -599,7 +599,7 @@ h3 {
 }
 
 .articles_wrap li span {
-  background: url(/src/images/blopic1.jpg) no-repeat center;
+  background: url(../images/blopic1.jpg) no-repeat center;
   background-size: cover;
   border-radius: 6px 0 0 6px;
   color: #fff;
@@ -635,23 +635,23 @@ h3 {
 }
 
 .articles_wrap li:nth-of-type(2) span {
-  background-image: url(/src/images/blopic2.jpg);
+  background-image: url(../images/blopic2.jpg);
 }
 
 .articles_wrap li:nth-of-type(3) span {
-  background-image: url(/src/images/blopic3.jpg);
+  background-image: url(../images/blopic3.jpg);
 }
 
 .articles_wrap li:nth-of-type(4) span {
-  background-image: url(/src/images/blopic4.jpg);
+  background-image: url(../images/blopic4.jpg);
 }
 
 .articles_wrap li:nth-of-type(5) span {
-  background-image: url(/src/images/blopic5.jpg);
+  background-image: url(../images/blopic5.jpg);
 }
 
 .articles_wrap li:nth-of-type(6) span {
-  background-image: url(/src/images/blopic6.jpg);
+  background-image: url(../images/blopic6.jpg);
 }
 
 
@@ -889,7 +889,7 @@ h3 {
 .corner_img{
   height: 350px;
   float: right;
-  shape-outside: url('/src/images/Pam\ no\ background\ color.png');
+  shape-outside: url('../images/Pam\ no\ background\ color.png');
   margin-top: 300px;
   shape-margin: 15px;
   
