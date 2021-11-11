@@ -544,7 +544,7 @@ input[type="radio"]:first-of-type {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
   content: "\f111";
-  color: var(--greenlight);
+  color: var(--greendark);
   font-size: 1.2em;
   vertical-align: middle;
   margin: -4px 3px 0 0;
@@ -887,11 +887,11 @@ h3 {
 }
 
 .corner_img{
-  height: 350px;
+  height: 300px;
   float: right;
   shape-outside: url('../images/Pam\ no\ background\ color.png');
-  margin-top: 300px;
-  shape-margin: 15px;
+  margin-top: 50px;
+  shape-margin: 20px;
   
 }
 /* =======================================================================  */
