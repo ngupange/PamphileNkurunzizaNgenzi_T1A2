@@ -333,6 +333,78 @@ footer {
 
 /* ================================================ */
 
+/* ----------****** Hero Page ******----- */
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("/images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-text h1 {
+  flex: 1;
+  font-size: 4rem;
+  font-weight: 900;
+  padding: 2rem 3rem;
+}
+
+
+.hero-text p {
+  flex: 1;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 3rem;
+}
+
+.welcome {
+  margin-top: 3rem;
+  color: var(--yellow);
+}
+
+.hero-text a {
+  flex: 1;
+  margin-top: 5rem;
+}
+
+
+.hero-image .hero-btn {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 800;
+  background: rgba(136, 3, 3, 0.651);
+  padding: .6rem 1rem;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.hero-image .hero-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+/* --------***** Forms ******-------- */
 
 .form {
   background-color: var(--greenlight);
@@ -397,7 +469,7 @@ form#contactForm {
 
 .contactForm button:hover {
   background-color: var(--greenhover);
-  color:var(--yellow);
+  color: var(--yellow);
 }
 
 .contactForm input[type="submit"]:active {
@@ -714,17 +786,18 @@ h3 {
 }
 
 .proList li {
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   border-radius: 6px;
   border: solid 1px #dedede;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 1.8rem;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto minmax(140px, 1fr) auto;
 }
 
-.proList h3, .proList img {
+.proList h3,
+.proList img {
   grid-row: 1 / 2;
   grid-column: 1;
 }
@@ -735,7 +808,7 @@ h3 {
   padding: .5rem;
   margin-bottom: 1rem;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(51,51,51,.7);
+  text-shadow: 1px 1px 2px rgba(51, 51, 51, .7);
   align-self: end;
   font-size: 1.5rem;
 }
@@ -761,26 +834,30 @@ h3 {
 /* --------********* Resume *******------- */
 
 
-.item-details h3 + p {
+.item-details h3+p {
   font-style: italic;
 }
-.item-details h3 ~ p {
+
+.item-details h3~p {
   margin: 0;
 }
-.divider > section {
+
+.divider>section {
   border-bottom: 1px dashed #343434;
   padding: 25px 1rem;
 }
-.divider > section:last-of-type {
+
+.divider>section:last-of-type {
   border-bottom: none;
   padding-bottom: 10rem;
 }
 
-.divider > section:nth-child(even) {
-  background-color: rgb(90, 191, 238, 35%);}
+.divider>section:nth-child(even) {
+  background-color: rgb(90, 191, 238, 35%);
+}
 
 
-.work-experience{
+.work-experience {
   padding-top: 5rem;
 }
 
@@ -795,18 +872,15 @@ h3 {
   font-size: 3rem;
 }
 
-#lkd{
+#lkd {
   text-align: right;
   padding-right: 3rem;
 }
 
-#lkd a{
+#lkd a {
   color: var(--tWhite);
   background-color: var(--greendark);
 }
-
-
-
 
 
 /* =======================================================================  */
@@ -969,15 +1043,15 @@ h3 {
 
 
   /* ===================================================== */
-/* ######### Project Page, Large screen rules ######### */
-.proList {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* ######### Project Page, Large screen rules ######### */
+  .proList {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
   .pro_wrap article {
-   width: 90%;
-   display: flex;
-   align-items: center;
+    width: 90%;
+    display: flex;
+    align-items: center;
   }
 
   .pro_wrap h1 {
@@ -1012,4 +1086,3 @@ h3 {
 }
 
 /* ============================================================================================================================== */
-
