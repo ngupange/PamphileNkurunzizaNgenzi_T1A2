@@ -882,7 +882,18 @@ h3 {
   background-color: var(--greendark);
 }
 
+#aboutme_wrap{
+  text-align: justify;
+}
 
+.corner_img{
+  height: 350px;
+  float: right;
+  shape-outside: url('/images/Pam\ no\ background\ color.png');
+  margin-top: 300px;
+  shape-margin: 15px;
+  
+}
 /* =======================================================================  */
 
 
