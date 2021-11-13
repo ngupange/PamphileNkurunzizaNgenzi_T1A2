@@ -430,11 +430,13 @@ footer {
 }
 
 .corner_img {
-  height: 300px;
+  display: block;
+  width: 30%;
   float: right;
   shape-outside: url('../images/Pam\ no\ background\ color.png');
-  margin-top: 50px;
+  /* margin-top: 50px; */
   shape-margin: 20px;
+  /* border: 50px dashed yellow */
 
 }
 
