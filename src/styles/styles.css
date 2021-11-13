@@ -1,28 +1,25 @@
 /*
-COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
-#36bae6 - blue hover
-#afacac - dash-border
-
-
 TABLE OF CONTENTS
 
   1. Global styles
-  2. Hero
-  3. Navigation
-  4. Footer
-  5. Media Queries
-    5a. Media Query, (min-width:480px)
+  2. Header
+  3. Footer
+  4. Home Page / Index 
+  5. About Me Page
+  6. Projects Page
+  7. Resume Page
+  8. Blog Pages
+  9. Contact Me 
 
-    5b. Media Query, (min-width: 1000px)
+  10. Media Queries
+    10. a. Media Query, (min-width:480px)
+
+    10.b Media Query, (min-width: 1000px)
 
 */
-/* Global styles
+
+
+/* 1. Global styles
 ------------------------------------*/
 :root {
   --black: #343434;
@@ -37,15 +34,11 @@ TABLE OF CONTENTS
   --tgreen: rgba(38, 92, 0, 0.732);
 }
 
-* {
-  font-size: 100%;
-  /* padding: 0; */
-  margin: 0;
-}
-
 *,
 *:before,
 *:after {
+  font-size: 100%;
+  margin: 0;
   box-sizing: inherit;
 }
 
@@ -54,11 +47,8 @@ html {
 }
 
 article,
-figcaption,
-figure,
 footer,
 header,
-hgroup,
 nav,
 section {
   display: block;
@@ -75,7 +65,7 @@ body {
   flex-direction: column;
 }
 
-
+/* Contents is a class I wrapped around a container to control it's bottom padding to make sure that footer doesn't cover any content at the bottom ---- My first component */
 .contents {
   flex: 1;
   padding: 3rem 0 8.5rem 0;
@@ -117,9 +107,12 @@ h2 {
   text-align: center;
   line-height: 5;
 }
+
 p {
   line-height: 1.4;
 }
+
+/* Social Icons control */
 
 i {
   padding-left: .5rem;
@@ -131,6 +124,7 @@ i:hover {
   color: var(--greenhover);
 }
 
+/* Second component --- this class helps me to centre the whole site and stop contents to pass a certain width */
 .content-wrap {
   max-width: 1000px;
   width: 85%;
@@ -142,19 +136,26 @@ i:hover {
   padding: 1rem 0;
 }
 
-/*-- ************  Header  ************ -- */
+/* =========================================================================================== */
 
+
+
+/* 2. Header
+------------------------------------*/
+
+/* Header is another component used to wrap my navigation menu and the logo across the whole website */
 header {
   background-color: var(--greendark);
   color: var(--white);
 }
 
-.navWrap a {
-  flex: 1;
-}
-
 .logo {
   max-width: 100px;
+}
+/*-- ************ 2. 2. Navigation  ************ -- */
+
+.navWrap a {
+  flex: 1;
 }
 
 .navWrap {
@@ -297,7 +298,12 @@ nav .btn:hover {
 }
 
 
-/*-- ************  Footer  ************ -- */
+/* =========================================================================================== */
+
+/* Footer element is another component used to wrap Copylights, and my social links across the whole website is identical*/
+
+/* 3. Footer
+------------------------------------*/
 
 footer {
   background-color: var(--greendark);
@@ -318,7 +324,7 @@ footer {
   align-items: center;
 }
 
-/*-- **********  Footer Wrap -- Social Text  ********** -- */
+/*-- **********  Footer Wrap -- Social  ********** -- */
 
 .social_text {
   flex: 1;
@@ -327,8 +333,6 @@ footer {
 .social_text span {
   font-size: 1.5rem;
 }
-
-/*-- **********  Footer Wrap -- Social Icons Wrap  ********** -- */
 
 .social_icons {
   flex: 1;
@@ -342,24 +346,17 @@ footer {
 }
 
 
-/* ================================================ */
-
-/* ----------****** Hero Page ******----- */
+/* =========================================================================================== */
 
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)),
-    url("../images/hero.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* 4. Home Page / Index 
+------------------------------------*/
+
+
+.welcome {
+  margin-top: 3rem;
+  color: var(--yellow);
 }
-
 
 .hero-text {
   display: flex;
@@ -378,7 +375,6 @@ footer {
   padding: 2rem 3rem;
 }
 
-
 .hero-text p {
   flex: 1;
   font-size: 2rem;
@@ -386,16 +382,24 @@ footer {
   line-height: 3rem;
 }
 
-.welcome {
-  margin-top: 3rem;
-  color: var(--yellow);
-}
-
 .hero-text a {
   flex: 1;
   margin-top: 5rem;
 }
 
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+    url("../images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .hero-image .hero-btn {
   text-decoration: none;
@@ -415,7 +419,357 @@ footer {
 }
 
 
-/* --------***** Forms ******-------- */
+/* =======================================================================  */
+
+/* 5. About me Page
+------------------------------------*/
+
+#aboutme_wrap {
+  text-align: justify;
+}
+
+.corner_img {
+  height: 300px;
+  float: right;
+  shape-outside: url('../images/Pam\ no\ background\ color.png');
+  margin-top: 50px;
+  shape-margin: 20px;
+
+}
+
+
+/* =========================================================================================== */
+
+
+/* 6. Projects Page
+------------------------------------*/
+.pro_wrap {
+  padding: 1rem;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.pro_wrap h3 {
+  color: var(--greenlight);
+  font-size: 3rem;
+  margin-left: 1rem;
+}
+
+.pro_wrap a {
+  border-radius: 3px;
+  background-color: var(--greendark);
+  color: var(--white);
+  height: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro_wrap a:hover {
+  background-color: var(--greenhover);
+}
+
+.proList {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1rem;
+}
+
+.proList li {
+  background-color: var(--tWhite);
+  border-radius: 6px;
+  border: solid 2px var(--borderline);
+  box-shadow: 0 3px 7px var(--bordershadow);
+  padding: 1.8rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto minmax(140px, 1fr) auto;
+}
+
+.proList h2 {
+  grid-row: 1 / 2;
+  grid-column: 1;
+  text-align: center;
+  padding-bottom: .4rem;
+  font-weight: 800;
+}
+
+.proList h3,
+.proList img {
+  grid-row: 2 / 3;
+  grid-column: 1;
+}
+
+.proList h3 {
+  background-color: var(--tgreen);
+  color: var(--white);
+  padding: .5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px var(--black);
+  align-self: end;
+  font-size: 1.5rem;
+  max-width: 100%;
+}
+/* =========================================================================================== */
+
+/* 7. Resume Page
+------------------------------------*/
+
+
+.item-details h3+p {
+  font-style: italic;
+}
+
+.item-details h3~p {
+  margin: 0;
+}
+
+.divider>section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 1rem;
+}
+
+.divider>section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 10rem;
+}
+
+.divider>section:nth-child(even) {
+  background-color: rgb(90, 191, 238, 35%);
+}
+
+
+.work-experience {
+  padding-top: 5rem;
+}
+
+.item-details {
+  background: rgb(90, 191, 238, 30%);
+  min-height: 95vh;
+}
+
+.item-details h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#lkd {
+  text-align: right;
+  padding-right: 3rem;
+}
+
+#lkd a {
+  color: var(--tWhite);
+  background-color: var(--greendark);
+}
+
+
+/* =======================================================================  */
+
+/* 8. Blog Page
+------------------------------------*/
+
+.bcontents h1,
+h2,
+h3 {
+  color: var(--greendark);
+  /* text-align: center; */
+  /* margin-bottom: 1rem; */
+}
+
+
+.blog_header h1+p {
+  border-left: solid 1px #dedede;
+  padding-left: 1rem;
+}
+
+.blog_header article h1 {
+  margin-left: 1rem;
+}
+
+.articles_wrap ul li {
+  border: solid 3px var(--borderline);
+  border-radius: 6px;
+  list-style-type: none;
+  margin: 0 0 1rem 0;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  grid-template-rows: auto;
+}
+
+.articles_wrap li .bpic {
+  background: url(../images/blopic1.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 6px 0 0 6px;
+  color: var(--white);
+  padding-top: 1rem;
+  text-align: center;
+  text-shadow: 4px 4px 6px var(--greendark);
+  grid-column: 1 / 2;
+  grid-row: span 2;
+}
+
+.bheader {
+  display: flex;
+  flex-direction: column;
+}
+
+.bheader .bdate {
+  margin: 0;
+  padding: 0;
+  font-size: .6rem;
+}
+
+.articles_wrap li .bheader {
+  background-color: var(--greendark);
+  border-radius: 0 6px 0 0;
+  color: var(--white);
+  padding: .5rem 1rem;
+  grid-column: 2 / -1;
+  align-self: start;
+}
+
+.articles_wrap li p {
+  padding: .5rem 1rem 1rem;
+  grid-column: 2 / -1;
+}
+
+.articles_wrap li p a {
+  color: var(--white);
+  background-color: var(--greendark);
+  padding: 0 .5rem;
+}
+
+.articles_wrap li p a:hover {
+  background-color: var(--greenhover);
+}
+
+.articles_wrap li:nth-of-type(2) span {
+  background-image: url(../images/blopic2.jpg);
+}
+
+.articles_wrap li:nth-of-type(3) span {
+  background-image: url(../images/blopic3.jpg);
+}
+
+.articles_wrap li:nth-of-type(4) span {
+  background-image: url(../images/blopic4.jpg);
+}
+
+.articles_wrap li:nth-of-type(5) span {
+  background-image: url(../images/blopic5.jpg);
+}
+
+.articles_wrap li:nth-of-type(6) span {
+  background-image: url(../images/blopic6.jpg);
+}
+
+
+/* -----------************** Blog - ASIDE *******************------ */
+
+
+.aside_wrap .rightCol {
+  background-color: var(--greendark);
+  padding: 20px;
+}
+
+.aside_wrap .rightCol section {
+  border-bottom: 1px solid var(--white);
+  padding-bottom: 20px;
+}
+
+.aside_wrap .rightCol section>h1 {
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.aside_wrap .rightCol #blogSearch input {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.aside_wrap .rightCol ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aside_wrap .rightCol ul li,
+.aside_wrap .rightCol h2 {
+  background-color: var(--white);
+}
+
+.aside_wrap .rightCol ul li:nth-child(even) {
+  background-color: var(--tWhite);
+}
+
+.aside_wrap .rightCol h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.aside_wrap .rightCol li a,
+.aside_wrap .rightCol h2 a {
+  color: var(--black);
+  text-decoration: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.aside_wrap .rightCol li a span,
+.aside_wrap .rightCol h2 span {
+
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 50%;
+  background-color: var(--greendark);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside_wrap .rightCol li a:hover,
+.aside_wrap .rightCol h2 a:hover {
+  background-color: var(--greenhover);
+}
+
+.aside_wrap .rightCol li a:hover span,
+.aside_wrap .rightCol h2 a:hover span {
+  background-color: var(--white);
+  color: var(--greendark);
+}
+
+.aside_wrap .rightCol ul li:first-child,
+.aside_wrap .rightCol ul li:first-child a:hover {
+  border-radius: 10px 10px 0 0;
+}
+
+.aside_wrap .rightCol ul li:last-child,
+.aside_wrap .rightCol ul li:last-child a:hover {
+  border-radius: 0 0 10px 10px;
+}
+
+.aside_wrap .rightCol h2,
+.aside_wrap .rightCol h2 a:hover {
+  border-radius: 10px;
+}
+
+.archyear {
+  margin: 1rem 0;
+}
+
+/* =======================================================================  */
+
+/* 9. Contact Me 
+------------------------------------*/
 
 .form {
   background-color: var(--greenlight);
@@ -424,7 +778,6 @@ footer {
   padding: 1rem 1rem 2rem;
 }
 
-/* ######### Contact Form ######### */
 form#contactForm {
   max-width: 350px;
   margin: auto;
@@ -579,345 +932,6 @@ input[type="radio"]:checked~span:before {
 
 /* ==================================================================  */
 
-/* ----******* Blog Page *****------- */
-
-.bcontents h1,
-h2,
-h3 {
-  color: var(--greendark);
-  /* text-align: center; */
-  /* margin-bottom: 1rem; */
-}
-
-
-.blog_header h1+p {
-  border-left: solid 1px #dedede;
-  padding-left: 1rem;
-}
-
-.blog_header article h1 {
-  margin-left: 1rem;
-}
-
-.articles_wrap ul li {
-  border: solid 3px var(--borderline);
-  border-radius: 6px;
-  list-style-type: none;
-  margin: 0 0 1rem 0;
-  display: grid;
-  grid-template-columns: 1.5fr 3fr;
-  grid-template-rows: auto;
-}
-
-.articles_wrap li .bpic {
-  background: url(../images/blopic1.jpg) no-repeat center;
-  background-size: cover;
-  border-radius: 6px 0 0 6px;
-  color: var(--white);
-  padding-top: 1rem;
-  text-align: center;
-  text-shadow: 4px 4px 6px var(--greendark);
-  grid-column: 1 / 2;
-  grid-row: span 2;
-}
-
-.bheader{
-  display: flex;
-  flex-direction: column;
-}
-
-.bheader .bdate{
-  margin: 0;
-  padding: 0;
-  font-size: .6rem;
-}
-
-.articles_wrap li .bheader {
-  background-color: var(--greendark);
-  border-radius: 0 6px 0 0;
-  color: var(--white);
-  padding: .5rem 1rem;
-  grid-column: 2 / -1;
-  align-self: start;
-}
-
-.articles_wrap li p {
-  padding: .5rem 1rem 1rem;
-  grid-column: 2 / -1;
-}
-
-.articles_wrap li p a {
-  color: var(--white);
-  background-color: var(--greendark);
-  padding: 0 .5rem;
-}
-
-.articles_wrap li p a:hover {
-  background-color: var(--greenhover);
-}
-
-.articles_wrap li:nth-of-type(2) span {
-  background-image: url(../images/blopic2.jpg);
-}
-
-.articles_wrap li:nth-of-type(3) span {
-  background-image: url(../images/blopic3.jpg);
-}
-
-.articles_wrap li:nth-of-type(4) span {
-  background-image: url(../images/blopic4.jpg);
-}
-
-.articles_wrap li:nth-of-type(5) span {
-  background-image: url(../images/blopic5.jpg);
-}
-
-.articles_wrap li:nth-of-type(6) span {
-  background-image: url(../images/blopic6.jpg);
-}
-
-
-/* -----------************** Blog - ASIDE *******************------ */
-
-
-.aside_wrap .rightCol {
-  background-color: var(--greendark);
-  padding: 20px;
-}
-
-.aside_wrap .rightCol section {
-  border-bottom: 1px solid var(--white);
-  padding-bottom: 20px;
-}
-
-.aside_wrap .rightCol section>h1 {
-  color: var(--white);
-  font-size: 1.5rem;
-}
-
-.aside_wrap .rightCol #blogSearch input {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.aside_wrap .rightCol ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.aside_wrap .rightCol ul li,
-.aside_wrap .rightCol h2 {
-  background-color: var(--white);
-}
-
-.aside_wrap .rightCol ul li:nth-child(even) {
-  background-color: var(--tWhite);
-}
-
-.aside_wrap .rightCol h2 {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-.aside_wrap .rightCol li a,
-.aside_wrap .rightCol h2 a {
-  color: var(--black);
-  text-decoration: none;
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.aside_wrap .rightCol li a span,
-.aside_wrap .rightCol h2 span {
-
-  width: 20px;
-  height: 20px;
-  font-size: 12px;
-  border-radius: 50%;
-  background-color: var(--greendark);
-  color: var(--white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.aside_wrap .rightCol li a:hover,
-.aside_wrap .rightCol h2 a:hover {
-  background-color: var(--greenhover);
-}
-
-.aside_wrap .rightCol li a:hover span,
-.aside_wrap .rightCol h2 a:hover span {
-  background-color: var(--white);
-  color: var(--greendark);
-}
-
-.aside_wrap .rightCol ul li:first-child,
-.aside_wrap .rightCol ul li:first-child a:hover {
-  border-radius: 10px 10px 0 0;
-}
-
-.aside_wrap .rightCol ul li:last-child,
-.aside_wrap .rightCol ul li:last-child a:hover {
-  border-radius: 0 0 10px 10px;
-}
-
-.aside_wrap .rightCol h2,
-.aside_wrap .rightCol h2 a:hover {
-  border-radius: 10px;
-}
-
-.archyear {
-  margin: 1rem 0;
-}
-
-/* ============================================================================================ */
-
-/* ############ Project Page ############ */
-.pro_wrap {
-  padding: 1rem;
-  margin: auto;
-  max-width: 1200px;
-}
-
-.pro_wrap h3 {
-  color: var(--greenlight);
-  font-size: 3rem;
-  margin-left: 1rem;
-}
-
-.proList {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-gap: 1rem;
-}
-
-.proList li {
-  background-color: var(--tWhite);
-  border-radius: 6px;
-  border: solid 2px var(--borderline);
-  box-shadow: 0 3px 7px var(--bordershadow);
-  padding: 1.8rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto minmax(140px, 1fr) auto;
-}
-
-.proList h2 {
-  grid-row: 1 / 2;
-  grid-column: 1;
-  text-align: center;
-  padding-bottom: .4rem;
-  font-weight: 800;
-}
-
-.proList h3,
-.proList img {
-  grid-row: 2 / 3;
-  grid-column: 1;
-}
-
-.proList h3 {
-  background-color: var(--tgreen);
-  color: var(--white);
-  padding: .5rem;
-  margin-bottom: 1rem;
-  text-align: center;
-  text-shadow: 1px 1px 2px var(--black);
-  align-self: end;
-  font-size: 1.5rem;
-  max-width: 100%;
-}
-
-.pro_wrap a {
-  border-radius: 3px;
-  background-color: var(--greendark);
-  color: var(--white);
-  height: 2rem;
-  margin-top: 1rem;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pro_wrap a:hover {
-  background-color: var(--greenhover);
-}
-
-/* =========================================================================== */
-
-/* --------********* Resume *******------- */
-
-
-.item-details h3+p {
-  font-style: italic;
-}
-
-.item-details h3~p {
-  margin: 0;
-}
-
-.divider>section {
-  border-bottom: 1px dashed #343434;
-  padding: 25px 1rem;
-}
-
-.divider>section:last-of-type {
-  border-bottom: none;
-  padding-bottom: 10rem;
-}
-
-.divider>section:nth-child(even) {
-  background-color: rgb(90, 191, 238, 35%);
-}
-
-
-.work-experience {
-  padding-top: 5rem;
-}
-
-
-.item-details {
-  background: rgb(90, 191, 238, 30%);
-  min-height: 95vh;
-}
-
-.item-details h2 {
-  text-align: center;
-  font-size: 3rem;
-}
-
-#lkd {
-  text-align: right;
-  padding-right: 3rem;
-}
-
-#lkd a {
-  color: var(--tWhite);
-  background-color: var(--greendark);
-}
-
-#aboutme_wrap{
-  text-align: justify;
-}
-
-.corner_img{
-  height: 300px;
-  float: right;
-  shape-outside: url('../images/Pam\ no\ background\ color.png');
-  margin-top: 50px;
-  shape-margin: 20px;
-  
-}
-/* =======================================================================  */
-
-
-
 /* Tablets Display */
 
 @media screen and (min-width:500px) {
@@ -929,8 +943,6 @@ h3 {
 
 @media screen and (min-width:780px) {
 
-
-  /* -- ***************  Header  **************** -- */
   .content-wrap {
     max-width: 1200px;
     width: 90%;
@@ -986,11 +998,7 @@ h3 {
     background-color: var(--greendark);
   }
 
-  /* Using flex to display Menu*/
-
   /* -- ***************  Footer  **************** -- */
-
-  /* Try to make it grid */
 
   i {
     padding-left: 0;
@@ -1031,7 +1039,6 @@ h3 {
 
   .articles_wrap {
     max-width: 1000px;
-    /* margin: auto; */
   }
 
   .blog_header article {
@@ -1053,8 +1060,6 @@ h3 {
   }
 
 
-
-
   /* -----*********** Blog Page Computer Screen ****** ----- */
 
 
@@ -1074,6 +1079,7 @@ h3 {
 
 
   /* ===================================================== */
+
   /* ######### Project Page, Large screen rules ######### */
   .proList {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -1082,7 +1088,6 @@ h3 {
   .pro_wrap p {
     flex: 2;
   }
-
 
   /* =========================================================== */
 
@@ -1097,13 +1102,3 @@ h3 {
 }
 
 /* ====================================================================== */
-
-
-
-@media screen and (min-width: 1200px) {
-
-  /* Change footer and display icons one line */
-
-}
-
-/* ============================================================================================================================== */
