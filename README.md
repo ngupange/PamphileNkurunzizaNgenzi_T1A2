@@ -10,7 +10,7 @@
 
 # Purpose
 
-The purpose of this portfolio is to put into practice what learnt theoretically. This project is a study, a test it is not final it will be updated often as I learn new skills. this portofolio will be real before graduation. So far it's a showcase and it reflect what I can achieve using just CSS and HTML only. On final website we will have areal details about me not the placeholders.
+The purpose of this portfolio is to put into practice what I learnt theoretically. This project is a study, just a test it is not final website about me it's a kind of prototype or blue print ... it will be updated often as I learn new skills. That means this portofolio will be real before our graduation to help recruiters know more about me. So far it's just a showcase and it reflects what I can achieve right now using just CSS and HTML only. Please allow me to stress on this that on the final website we will have real details about me not the placeholders. Stay tuned
 
 # Sitemap
 
