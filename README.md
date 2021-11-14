@@ -75,10 +75,10 @@ The portofolio website is responsive you can access it on mobile, tablet, and de
 # Wireframe view
 ![Home Page desktop view](docs/ContactMe_Page.png)
 
-# desktop view
+# Desktop view
 ![Home Page desktop view](docs/ContactMe_Page_L.png)
 
-6. My CV (PDF) button for those who want to print my CV this button is easy to access wherever you are on this website.
+6. My CV (PDF) button for those who want to print my CV this button is easy to access wherever you are on this website.  However the pdf file we have there is not mine it's from online stock.
 
 
 ## Target Audience
