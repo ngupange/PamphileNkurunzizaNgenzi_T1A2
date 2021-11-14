@@ -10,7 +10,7 @@
 
 # Purpose
 
-The purpose of this portfolio is to put into practice what learnt theoretically. And it's a showcase my skills and personality to potential employers. It is not only serves as a directory for projects I've worked on but also shows my skills in developing websites through the content of the portfolio itself. Additionally, it is a platform that potential employers and clients can contact me through.
+The purpose of this portfolio is to put into practice what learnt theoretically. This project is a study, a test it is not final it will be updated often as I learn new skills. this portofolio will be real before graduation. So far it's a showcase and it reflect what I can achieve using just CSS and HTML only. On final website we will have areal details about me not the placeholders.
 
 # Sitemap
 
@@ -82,7 +82,7 @@ The portofolio website is responsive you can access it on mobile, tablet, and de
 
 
 ## Target Audience
-This site is aimed at two primary audiences. The first group is made up of those who are seeking developers for their business. The second, is individuals who are looking to contract a developer as a freelancer to work on a single project, such as a website.
+This site is aimed at two primary audiences. The first group is made up of those who are seeking developers for their business and this prototype can show them what I can do. The second, is individuals who are looking to contract a developer as a freelancer to work on a single project, such as a website.
 
 ## Tech Stack
 The following tech was used in the production of this portfolio:
