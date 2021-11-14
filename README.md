@@ -39,8 +39,7 @@ The portofolio website is responsive you can access it on mobile, tablet, and de
 ![Home Page desktop view](docs/AboutMe_Page.png)
  
  # Desktop view
-!
-[Home Page desktop view](docs/AboutMe_Page_L.png)
+![Home Page desktop view](docs/AboutMe_Page_L.png)
 
  3. Projects page and this will be like a directory for projects I've worked on. Currently there is no projects so far that is why it's filled by placeholders text and stock images.
 
