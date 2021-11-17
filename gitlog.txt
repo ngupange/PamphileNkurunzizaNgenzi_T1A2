@@ -1,0 +1,382 @@
+commit 587d17eda08aa286b63163e2c0694879479b0f78
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 14 22:11:21 2021 +1000
+
+    Final Commit on Readme File last F
+
+commit aaeb7ee3f593082e3f3921ac8f0ba46bcc994d97
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 14 22:06:12 2021 +1000
+
+    Final Commit on Readme File last
+
+commit 38bae4feeb3a055c95c669863017a120e6063816
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 14 21:57:42 2021 +1000
+
+    Final Commit on Readme File
+
+commit cbd6dedb94f7c2e36e04db48d44462b93906f492
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 14 21:41:16 2021 +1000
+
+    Initialise Readme file, put file into docs and ppt folder
+
+commit f827724c0284e8561f492bbd04541c2c93cdc705
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sat Nov 13 15:21:15 2021 +1000
+
+    about me fix
+
+commit 5edaf9cfe2052f96795ee55088b9782c7a58a313
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sat Nov 13 12:31:08 2021 +1000
+
+    Fix about me page
+
+commit cd3dc3dfa1373212d343c5a78ed96dcd11378522
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sat Nov 13 11:01:02 2021 +1000
+
+    CSS beautfy
+
+commit 034b8017b6a96d081265a04c4a27cfbee16fdac6
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sat Nov 13 10:53:07 2021 +1000
+
+    CSS and HTML file clean up and commenting
+
+commit ee66b09be7cccfa223605e2dba5b83eeabca870d
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 23:27:11 2021 +1000
+
+    Upload Images to blog page and add dates
+
+commit 09b124dc09cbd8cdbe3d20c3846e2139569bbd20
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 21:00:16 2021 +1000
+
+    Upload Images to Project Page
+
+commit ffbaf507eefbd0eae64e6c11cfe2ee508588ec27
+Merge: c1a92bf 2e1c50c
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 19:54:22 2021 +1000
+
+    Merge branch 'main' of https://github.com/ngupange/PamphileNkurunzizaNgenzi_T1A2
+
+commit c1a92bfc8cc5e5f820e56502b552cf6be7ef6515
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 19:53:25 2021 +1000
+
+    project page remake
+
+commit 48cadfca4d3643ba4547f10af250ee2b0f4f0eee
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 19:06:32 2021 +1000
+
+    Before theme change
+
+commit 2e1c50c1f46f63fd8b005c3716a7ad6f97c1c320
+Author: Pam Ngenzi <92555659+ngupange@users.noreply.github.com>
+Date:   Thu Nov 11 18:17:53 2021 +1000
+
+    Update README.md
+
+commit 76bf233e8fd699ff375ea364e16c50ca169c875f
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 18:11:04 2021 +1000
+
+    Before theme change
+
+commit 66e50d96bfaf839625875b2882cd9a884484af54
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 15:15:12 2021 +1000
+
+    fixing images links in css file 3
+
+commit 655d4647c5bc1e71c9c86453b40922ea543b2acd
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 15:10:44 2021 +1000
+
+    fixing images links in css file 2
+
+commit 6d6183656843a34626a6163a74ec9a6e54951da5
+Merge: 7559f0d c4bebb9
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 14:55:29 2021 +1000
+
+    Merge branch 'main' of https://github.com/ngupange/PamphileNkurunzizaNgenzi_T1A2
+
+commit 7559f0d84d22192f0d7baa1dffc57368f87d94fb
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 14:54:18 2021 +1000
+
+    fixing images links in css file
+
+commit 78e493e4a198f812538abc0574dd274bd79ed558
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 14:41:40 2021 +1000
+
+    fixing images links
+
+commit c4bebb95e8e46716584f7d14430d1f6aea1b75cf
+Author: Pam Ngenzi <92555659+ngupange@users.noreply.github.com>
+Date:   Thu Nov 11 14:38:53 2021 +1000
+
+    Update README.md
+
+commit 640616ad3010e0a73365f42c615a7877403211ee
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 14:18:45 2021 +1000
+
+    Move files into src folder
+
+commit 7a61916d351e3208efbdaf5c7418d0fde591888b
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 12:09:51 2021 +1000
+
+    add sample resume
+
+commit 6d53910bfd3e75377cf72918e9d4fabd72e6166d
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 11:21:08 2021 +1000
+
+    Hero page creation
+
+commit 102dda66bb825939e530e8810678523cbdd80825
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Thu Nov 11 06:25:16 2021 +1000
+
+    Theme changing
+
+commit b92315c485770b74ebcc1055da6b636f9533e7f9
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Wed Nov 10 22:25:33 2021 +1000
+
+    Resume page
+
+commit 51e67ac227d8e2dfd9a6f35d1e25e56fbb74a353
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Wed Nov 10 16:46:37 2021 +1000
+
+    Project page
+
+commit 91ee95bda373b1be1c155f381f6b55e95b766fb2
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Wed Nov 10 13:19:58 2021 +1000
+
+    Fixed Images
+
+commit e9c275ab9b6766ffafe1830b2cdb7e6ba24abf64
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Wed Nov 10 13:14:55 2021 +1000
+
+    Design Aside on Blogs page
+
+commit 7788049e1f881831ef7e8921e7e1b5199232b987
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 21:51:58 2021 +1000
+
+    Contact me page content wrap forth fix
+
+commit 7f327f71296854c721cc29e0ebb0a0958f1cec7e
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 21:50:35 2021 +1000
+
+    Blogs page creation
+
+commit 28632abfeabd535622013c49616fbda209f69b9d
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 21:03:12 2021 +1000
+
+    Contact me page content wrap thirdd fix
+
+commit 81099a228932ea85e64d38fcf701061886ef8ff4
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 20:48:49 2021 +1000
+
+    Contact me page content wrap second fix
+
+commit 565db1f46fca5766612f5b0a9358f8a405125478
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 20:45:51 2021 +1000
+
+    Contact me page content wrap fix
+
+commit be951fd2a2c5a9e5c9d8a886766be29c87dda0c6
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 20:31:43 2021 +1000
+
+    Contact me page creation and first fix
+
+commit 21946313fb3a13d50a32022b9739cd555f28892d
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 18:09:08 2021 +1000
+
+    CSS variables /SAAS
+
+commit aa6ac8691badfd7ce0438fc18f482b245112998d
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 17:11:01 2021 +1000
+
+    Colors matching up
+
+commit a419a5e5fa1ce5bd731192eec1d5b0c064ba055f
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 16:11:26 2021 +1000
+
+    File clean_up
+
+commit 11ed1b735bfa87ded1da3a23a784eb940f0d1cf2
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 16:02:05 2021 +1000
+
+    Header Footer Fixed or sticky
+
+commit b4bad21dbe5706fa0b7ba6536965415737a71995
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 15:23:40 2021 +1000
+
+    Hamburger Menu Final
+
+commit 28e38b7753a917cc31fe6a6152808e6d6600dc6b
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 04:08:59 2021 +1000
+
+    Hamburger Menu try #5
+
+commit a2fe696820a87f0d0d78dcf50952c995f6aa265a
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 00:42:58 2021 +1000
+
+    Hamburger Menu try #4
+
+commit 5c7f42e55356a2c3bc2ef3658372ef3e52f24554
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Tue Nov 9 00:08:55 2021 +1000
+
+    Hamburger Menu display left #1
+
+commit 2185f65482a25261360943e16071ec0a4c20a469
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 23:42:23 2021 +1000
+
+    Hamburger Menu try #1
+
+commit c57508534cb95c3c036b643cea4bf7e88509ba3d
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 21:30:42 2021 +1000
+
+    footer on medium and large screen #3
+
+commit 3efac57df0c15bf943d693142c6cdc2b947ed68e
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 21:14:33 2021 +1000
+
+    footer on medium and large screen #2
+
+commit bad60eb014088d3eaaafdf8e495cd59a6eed2709
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 21:06:19 2021 +1000
+
+    footer on medium and large screen
+
+commit ab4f1855f55e8d82760cef3c581f6977758b6554
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 13:04:40 2021 +1000
+
+    Final touches on Footer and media query intro
+
+commit 8bc101d17448e5d356d3909cad0eb0563fc4792a
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 11:20:39 2021 +1000
+
+    align Footer
+
+commit 5f7fc96eeb14b262fb7554ee6cf76443964b27b7
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 11:11:46 2021 +1000
+
+    Design Footer
+
+commit a926ffb27a16c79080f650eda5e205fec19f5d30
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 05:47:59 2021 +1000
+
+    fixing footer on  masterpage
+
+commit 36736a0985bf80bd2921c7b057a5d546cfd5c76f
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Mon Nov 8 05:40:17 2021 +1000
+
+    Designing masterpage
+
+commit 245a390a289985dc71439e589d864e2c67863856
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 17:46:57 2021 +1000
+
+    Global CSS first apply
+
+commit dfd7acc14ee45c5617f916e7b686c40351f5730c
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 17:04:30 2021 +1000
+
+    portofolio structured
+
+commit 0c3987bb90851813d5719d436d280ce30fe5832f
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 13:39:37 2021 +1000
+
+    Update linkedin account link
+
+commit 07868cf65d264f7c13390d7218a750337c750f20
+Merge: 412017c cb7419c
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 13:32:38 2021 +1000
+
+    Link in readme file
+
+commit 412017caa289e7497f7c4e10162a539367aa1104
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 13:17:35 2021 +1000
+
+    icon modified
+
+commit cb7419c845162a890d73ae0c11911b4fe7f230cd
+Author: Pam Ngenzi <92555659+ngupange@users.noreply.github.com>
+Date:   Sun Nov 7 13:14:26 2021 +1000
+
+    Update Read me
+    
+    Add a live link
+
+commit 84c590aeee85d063fc280500a0e696fc20fc6e12
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 12:32:44 2021 +1000
+
+    Update twitter address
+
+commit 2ba891be9abcb5da763d872d919dc4b9e77b541a
+Author: Pam Ngenzi <92555659+ngupange@users.noreply.github.com>
+Date:   Sun Nov 7 12:07:06 2021 +1000
+
+    Update README.md
+
+commit bf9348aa2e5f8bad291de77f66a8d3d0ab4ac016
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 11:12:52 2021 +1000
+
+    Initialize index.html
+
+commit f5728f0922ab938abc54bf8e52fcff5428a87d0d
+Author: ngupange <gcab022120@coderacademy.edu.au>
+Date:   Sun Nov 7 10:45:36 2021 +1000
+
+    Folder structure
+
+commit 37d3c4fdb37a09eb11b70652301bcfc582d59bdb
+Author: Pam Ngenzi <92555659+ngupange@users.noreply.github.com>
+Date:   Sat Nov 6 07:43:53 2021 +1000
+
+    Initial commit
